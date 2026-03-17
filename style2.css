@@ -2,16 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     flex: auto;
-}
-
-.box:nth-child(1) {
-    flex:1;
-}
-
-.box:nth-child(2) {
-    flex:2;
-}
-
-.box:nth-child(3) {
-    flex:3;
+    justify-content: space-evenly;
+    gap: 1rem;
 }
