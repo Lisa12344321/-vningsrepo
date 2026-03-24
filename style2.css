@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media not (max-width: 600px) {
     .container {
         flex-direction: column;
     }
